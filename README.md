@@ -9,7 +9,7 @@ This project is a fully async, agent-powered RAG (Retrieval-Augmented Generation
 - 🧠 **Local LLM agent** with function/tool calling support (via Ollama)
 - 📅 **Daily-updated MySQL pipeline** fetching data from the [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1/)
 - 🔒 Only safe `SELECT` SQL queries — no destructive commands
-- 💬 Simple UI (Streamlit / Gradio) to interact with the agent
+- 💬 Simple UI (Streamlit) to interact with the agent
 - 🚫 No vector DBs, no scraping, no OpenAI API — 100% local
 
 ---
