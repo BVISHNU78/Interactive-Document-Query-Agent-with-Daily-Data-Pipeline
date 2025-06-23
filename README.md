@@ -18,11 +18,11 @@ This project is a fully async, agent-powered RAG (Retrieval-Augmented Generation
 
 | Component        | Tech                          |
 |------------------|-------------------------------|
-| LLM Inference    | [Ollama](https://ollama.com/) with Qwen/Mistral |
+| LLM Inference    | [Ollama](https://ollama.com/) |
 | Backend API      | FastAPI                       |
 | Data Fetching    | aiohttp, asyncio              |
 | Database         | MySQL (via aiomysql)          |
-| UI               | Streamlit or Gradio           |
+| UI               | Streamlit                     |
 | Config           | Python `dotenv`               |
 
 ---
