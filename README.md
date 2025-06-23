@@ -67,7 +67,7 @@ Copy
 Edit
 uvicorn main:app --reload
 6. 🖥️ Access the UI
-Visit http://127.0.0.1:8000 or use gui.py (if Streamlit/Gradio enabled).
+Visit http://127.0.0.1:8000 or use gui.py (Streamlit).
 
 💬 Example Queries to Ask
 "Summarize the 5 most recent documents"
@@ -86,7 +86,7 @@ Edit
 ├── tools.py            # Tool functions and definitions
 ├── fetch.py            # Data pipeline from API → MySQL
 ├── main.py             # FastAPI app
-├── gui.py              # Streamlit/Gradio frontend (optional)
+├── gui.py              # Streamlit frontend 
 ├── .env                # Configuration file
 📌 Notes
 LLMs like Qwen sometimes hallucinate SQL column names. This project includes guardrails to prevent invalid queries.
