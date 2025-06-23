@@ -96,5 +96,4 @@ Only SELECT queries are allowed via tools.
 Avoid querying non-existent columns like topic or created_date.
 
 
-!1e1c62f3-47b7-4349-a191-ff4984e5a03d(https://github.com/user-attachments/assets/1f3e41d8-9033-4409-b5be-5f038905442d)
 
