@@ -2,7 +2,8 @@
 This project is a fully async, agent-powered RAG (Retrieval-Augmented Generation) system. Users can chat with a local LLM (like Qwen or Mistral via Ollama), which responds using **tool calls** that retrieve live, daily-updated federal document data from a local **MySQL** database.
 
 ---
-
+DEPLOYED
+##https://interactive-document-query-agent-with-daily-data-pipeline-lcho.streamlit.app/
 ## 🔍 Features
 
 - ⚡ **Async Python backend** using `FastAPI`, `aiohttp`, and `aiomysql`
@@ -94,6 +95,4 @@ LLMs like Qwen sometimes hallucinate SQL column names. This project includes gua
 Only SELECT queries are allowed via tools.
 
 Avoid querying non-existent columns like topic or created_date.
-
-
 
